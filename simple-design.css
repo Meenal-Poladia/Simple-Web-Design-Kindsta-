@@ -1,0 +1,159 @@
+html {
+	font-family: Arial;
+	font-size: 10px;
+	background-color: powderblue;
+}
+
+body {
+	background-color: powderblue;
+	margin: 0px;
+}
+
+
+/* Generating Header CSS */
+
+header {
+	display: flex;
+    height: 100px;
+    background-color: #7b68ee8c;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.logo {
+	width: 200px;
+}
+
+.tagline {
+	color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+	align-self: center;
+	margin-left: 5px;
+}
+
+header ul{
+	display: flex;
+    list-style-type: none;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+	margin: 0 0 0 auto;
+}
+
+header ul li,
+.login {
+	margin-right: 25px;
+    color: white;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.login {
+	font-size: 1.5em;
+    font-weight: bold;
+	align-self: center;
+	margin: 0 10px 0 0;
+}
+
+/* Generating the Breadcrumb below header */
+.breadcrumb {
+	flex-grow: 1;
+}
+
+.breadcrumb ul li a[href=""] {
+	color: grey;
+	text-decoration: none;
+}
+
+.breadcrumb ul {
+	display: flex;
+	list-style: none;
+	font-size: 1.5em;
+    word-spacing: 7px;
+}
+
+.breadcrumb li::before {
+	content: ">";
+	color: grey;
+    margin-left: 5px;
+}
+
+.breadcrumb li:first-child::before {
+		content: ""
+}
+
+.wrapper {
+	display: flex;
+}
+
+/* Generating CSS for content in main */
+
+main {
+	max-width: 660px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1 {
+	font-size: 42px;
+    font-weight: 900;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: x-large;
+	margin-bottom: 25px;
+}
+
+.blog-author{
+	color: gray;
+	text-decoration: none;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.blog-author a {
+	color: gray;
+	text-decoration: none;
+}
+
+.blog-author a:hover {
+	border-bottom: 1px solid black;
+}
+
+main img {
+	max-width: 100%;
+	height: 270px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.regular-paragraph {
+	font-size: large;
+    color: #000000a8;
+    line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.text-editor {
+	font-size: large;
+	line-height: 1.7;
+	margin-bottom: 70px;
+}
+
+.boldtext {
+	color: black;
+	font-weight: bold;
+}
+
+figcaption {
+	font-size: 13px;
+    font-style: italic;
+    text-align: end;
+}
+
+.regular-paragraph li {
+	margin-bottom: 15px;
+}
